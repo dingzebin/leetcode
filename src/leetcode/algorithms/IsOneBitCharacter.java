@@ -1,4 +1,4 @@
-package leetcode.algorithms.isOneBitCharacter;
+package leetcode.algorithms;
 
 /**
  * We have two special characters. The first character can be represented by one bit 0. The second character can be represented by two bits (10 or 11).

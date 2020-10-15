@@ -1,4 +1,4 @@
-package leetcode.algorithms.flippingAnImage;
+package leetcode.algorithms;
 
 import java.util.Arrays;
 

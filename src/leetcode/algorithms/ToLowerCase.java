@@ -1,4 +1,4 @@
-package leetcode.algorithms.toLowerCase;
+package leetcode.algorithms;
 
 /**
  * Implement function ToLowerCase() that has a string parameter str, and returns the same string in lowercase.

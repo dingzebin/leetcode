@@ -1,4 +1,4 @@
-package leetcode.algorithms.uniqueEmails;
+package leetcode.algorithms;
 
 import java.util.HashSet;
 

@@ -1,4 +1,4 @@
-package leetcode.algorithms.maxArea;
+package leetcode.algorithms;
 
 public class MaxArea {
     public static void main(String[] args) {

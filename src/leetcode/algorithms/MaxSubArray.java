@@ -1,4 +1,4 @@
-package leetcode.algorithms.maxSubArray;
+package leetcode.algorithms;
 
 /**
  * @description:

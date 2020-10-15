@@ -1,4 +1,4 @@
-package leetcode.algorithms.KnapsackProblem;
+package leetcode.algorithms;
 
 import java.util.ArrayList;
 import java.util.List;

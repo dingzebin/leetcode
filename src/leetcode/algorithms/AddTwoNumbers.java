@@ -1,4 +1,4 @@
-package leetcode.algorithms.addTwoNumbers;
+package leetcode.algorithms;
 
 import java.util.List;
 

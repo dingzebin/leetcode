@@ -1,4 +1,4 @@
-package leetcode.algorithms.uniqueMorseRepresentations;
+package leetcode.algorithms;
 
 import java.util.HashSet;
 import java.util.Set;

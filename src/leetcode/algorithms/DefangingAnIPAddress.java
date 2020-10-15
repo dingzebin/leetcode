@@ -1,4 +1,4 @@
-package leetcode.algorithms.defangingAnIPAddress;
+package leetcode.algorithms;
 
 public class DefangingAnIPAddress {
 

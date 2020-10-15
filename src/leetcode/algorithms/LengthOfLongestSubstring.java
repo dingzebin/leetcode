@@ -1,11 +1,11 @@
-package leetcode.algorithms.lengthOfLongestSubstring;
+package leetcode.algorithms;
 
 /**
  *  Given a string, find the length of the longest substring without repeating characters.
  */
 public class LengthOfLongestSubstring {
     public static void main(String[] args) {
-      String s = "abba";
+      String s = "abcabcbb";
       System.out.println(new LengthOfLongestSubstring().lengthOfLongestSubstring(s));
     }
     public int lengthOfLongestSubstring(String s) {
