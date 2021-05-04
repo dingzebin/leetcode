@@ -26,7 +26,7 @@ public class ZigZagConversion6 {
     }
     public String convert(String s, int numRows) {
         int len = s.length();
-        if (numRows == 1 || s.length() <= 2) return s;
+        if (numRows == 1 || len <= 2) return s;
         char[][] array = new char[numRows][len / numRows * 2 + 1];
         int row = 0;
         int column = 0;
