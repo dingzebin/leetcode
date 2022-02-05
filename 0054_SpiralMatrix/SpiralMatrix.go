@@ -18,46 +18,30 @@ func spiralOrder(matrix [][]int) []int {
 		res[i] = matrix[row][col]
 		if 0 == direction {
 			if col == width-n {
-				if row == heigh-n {
-					break
-				} else {
-					direction = 1
-					row++
-				}
+				direction = 1
+				row++
 			} else {
 				col++
 			}
 		} else if 1 == direction {
 			if row == heigh-n {
-				if col == n {
-					break
-				} else {
-					direction = 2
-					col--
-				}
+				direction = 2
+				col--
 			} else {
 				row++
 			}
 		} else if 2 == direction {
 			if col == n {
-				if row == n {
-					break
-				} else {
-					direction = 3
-					row--
-					n++
-				}
+				direction = 3
+				row--
+				n++
 			} else {
 				col--
 			}
 		} else if 3 == direction {
 			if row == n {
-				if col == width-n {
-					break
-				} else {
-					direction = 0
-					col++
-				}
+				direction = 0
+				col++
 			} else {
 				row--
 			}
