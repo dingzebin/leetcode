@@ -41,10 +41,3 @@ func merge(intervals [][]int) [][]int {
 	res = append(res, interval)
 	return res
 }
-
-func isIn(n int, arr []int) bool {
-	if n >= arr[0] && n <= arr[1] {
-		return true
-	}
-	return false
-}
