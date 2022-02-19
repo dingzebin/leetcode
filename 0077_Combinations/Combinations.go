@@ -15,21 +15,10 @@ func backtracking(n, k, start int, nums []int, res *[][]int) {
 		*res = append(*res, nums)
 	} else {
 		for i := start; i <= n-k+1; i++ {
-			if !isExist(i, nums) {
-				tmp := make([]int, len(nums))
-				copy(tmp, nums)
-				tmp = append(tmp, i)
-				backtracking(n, k-1, i, tmp, res)
-			}
+			tmp := make([]int, len(nums))
+			copy(tmp, nums)
+			tmp = append(tmp, i)
+			backtracking(n, k-1, i+1, tmp, res)
 		}
 	}
-}
-
-func isExist(n int, nums []int) bool {
-	for _, v := range nums {
-		if v == n {
-			return true
-		}
-	}
-	return false
 }
